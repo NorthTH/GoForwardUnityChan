@@ -5,6 +5,9 @@ public class BackgroundController : MonoBehaviour {
 
 	// スクロール速度
 	private float scrollSpeed = -0.03f;
+
+	/*カリキュラムの内容に従っていれば、背景が途切れることが発生しているため、
+	少し値を修正しました。*/
 	// 背景終了位置
 	private float deadLine = -18;
 	// 背景開始位置
